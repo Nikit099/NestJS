@@ -7,7 +7,7 @@ import { ProductsModule } from './products/products.module';
 @Module({
   imports: [
     ProductsModule,
-    MongooseModule.forRoot(`mongodb+srv://vladilen:vlad1234@cluster0.a2hy1.mongodb.net/products?retryWrites=true&w=majority`)
+    MongooseModule.forRoot(`mongodb://uxvcrw2h9vqpd742bfnx:yeLQv5KFUtuuqH0N0JBk@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017,n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/brnz12te6obimpk?replicaSet=rs0`)
   ],
   controllers: [AppController],
   providers: [AppService],
